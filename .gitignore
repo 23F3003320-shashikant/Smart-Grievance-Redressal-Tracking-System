@@ -1,0 +1,30 @@
+# Node / package managers
+node_modules/
+**/node_modules/
+.npm/
+.pnpm-store/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+build/
+dist/
+coverage/
+
+# Expo / React Native / frontend caches
+.expo/
+.expo-shared/
+.expo-dev-client/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
