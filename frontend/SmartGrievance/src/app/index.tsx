@@ -1,10 +1,13 @@
-import { Text, View, StyleSheet } from "react-native";
-
+import React from "react";
+import { Text, ScrollView, StyleSheet } from "react-native";
+import LoginScreen from "../component/login";
 export default function Index() {
   return (
-    <View style={styles.container}>
-      <Text>Smart Grievance System</Text>
-    </View>
+    <ScrollView contentContainerStyle={styles.container}>
+      <Text>Hello, World!</Text>
+      <LoginScreen />
+
+    </ScrollView>
   );
 }
 
