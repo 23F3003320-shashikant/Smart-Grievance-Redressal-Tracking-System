@@ -28,3 +28,27 @@ coverage/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+.Python
+*.egg-info/
+
+# Database (local)
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploads (local)
+uploads/
+backend/uploads/
+
+# IDE
+.vscode/
+.idea/
+*.swp
